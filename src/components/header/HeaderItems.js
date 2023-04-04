@@ -2,7 +2,7 @@ const HeaderItems = [
   {
     id: 1,
     title: "Home",
-    url: "#header",
+    url: "/",
   },
   {
     id: 2,

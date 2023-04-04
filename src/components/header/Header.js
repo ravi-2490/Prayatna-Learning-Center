@@ -13,14 +13,15 @@ function Header() {
     <section id="header">
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/" className="d-flex">
             <Image
               src={logo}
-              height="30"
+              height={40}
+              width={40}
               className="d-inline-block align-top mx-1"
               alt="Logo"
             />
-            Prayatna Learning Center
+            <p className="mt-2">Praytana Learning Center</p>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

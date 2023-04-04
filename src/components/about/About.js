@@ -13,15 +13,20 @@ function About() {
             <h1>ABOUT US</h1>
           </div>
           <p className={styles.content}>
-            We are committed to take education to every single door, making it a
-            superb blend of knowledge and job specific. Our mission is to create
-            ethical and intellectual personnel through qualitative education.
-            Today, Prayatna Learning Centre is located at Ramamurthy Nagar,
-            bangalore, Karnataka. And, we are looking forward to spread our
-            efficiency at every nook and corner of India. We are the player with
-            diverse courses, teaching methodology, efficient faculty team and
-            effective management staff. Choose to contact or reach us for an
-            assured advanced career.
+            Prayatna Learning Center is located in IT Hub, Bengaluru. It is one
+            of the most loved centre for learning. We cater coaching and
+            tuitions for classes starting from Nursery to 12th Standard. It was
+            founded by Engineers and lecturers in 2017 with a vision to make
+            learning easy and fun. Our passion is to make kids understand
+            complex concepts in simplest ways. We provide wide range of services
+            like KCET, NATA coaching, Improvement classes for specific subjects
+            , online and Offline customised classes and so on. We are committed
+            to take education to every single door, making it a superb blend of
+            knowledge and job specific. Our mission is to create ethical and
+            intellectual personnel through qualitative education. We are the
+            player with diverse courses, teaching methodology, efficient faculty
+            team and effective management staff. Choose to contact us for smooth
+            learning experience
           </p>
         </div>
       </div>

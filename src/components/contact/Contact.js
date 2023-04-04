@@ -144,7 +144,7 @@ const Contact = () => {
               {/* social media links */}
               <ul className={styles.social}>
                 <li>
-                  <a href="#">
+                  <a href="https://www.facebook.com/people/Prayatna-Learning-Centre/100064719037655/?mibextid=ZbWKwL">
                     <FaFacebook />
                   </a>
                 </li>
@@ -159,7 +159,7 @@ const Contact = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/ashwin-kumar-12ba5495/">
                     <FaLinkedin />
                   </a>
                 </li>

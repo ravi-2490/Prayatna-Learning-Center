@@ -1,4 +1,3 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -20,10 +19,11 @@ const Footer = () => {
           <div className="sec aboutus">
             <h2>About us</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
-              porro pariatur beatae labore illum, dolorum officia doloribus rem
-              odit exercitationem sequi est, libero excepturi, sunt quis
-              officiis error aperiam similique.
+              Prayatna Learning Center is located in IT Hub, Bengaluru. It is
+              one of the most loved centre for learning. We cater coaching and
+              tuitions for classes starting from Nursery to 12th Standard. It
+              was founded by Engineers and lecturers in 2017 with a vision to
+              make learning easy and fun.{" "}
             </p>
             <ul className="sci">
               <li>

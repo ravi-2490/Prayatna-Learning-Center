@@ -169,3 +169,14 @@ footer p {
     padding: 8px 40px;
   }
 }
+
+#more {
+  display: none;
+}
+
+#readMore {
+  cursor: pointer;
+}
+#readMore a {
+  color: #fff;
+}
