@@ -1,0 +1,112 @@
+/* Navbar styles */
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbarContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Navbar brand styles */
+.navbarBrand {
+  display: flex;
+  align-items: center;
+}
+
+.brandName {
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+/* Navbar menu styles */
+.navbarMenu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbarMenu li {
+  margin-right: 20px;
+}
+
+.navbarMenu li:last-child {
+  margin-right: 0;
+}
+
+.navbarMenu li a {
+  color: #333333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbarMenu li a:hover {
+  color: #0077cc;
+}
+
+/* Navbar login button styles */
+.navbarLogin {
+  display: flex;
+  align-items: center;
+}
+
+.navbarLogin a {
+  background-color: #0077cc;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbarLogin a:hover {
+  background-color: #005faa;
+}
+
+/* Navbar toggler styles */
+.navbarToggler {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbarContainer {
+    flex-wrap: wrap;
+  }
+
+  .navbarToggler {
+    display: block;
+    cursor: pointer;
+  }
+
+  .navbarMenu {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbarMenu li {
+    margin: 10px 0;
+  }
+
+  .navbarMenu li:last-child {
+    margin-bottom: 0;
+  }
+
+  .navbarLogin {
+    margin-top: 10px;
+  }
+
+  .navbarToggler.active ~ .navbarMenu {
+    display: flex;
+  }
+}
