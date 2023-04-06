@@ -3,7 +3,7 @@ import DeepshikhaImage from "../../../public/images/teams/Deepshikha.jpg";
 const TeamsItems = [
   {
     id: 1,
-    name: "Aswin kumar",
+    name: "Ashwin kumar",
     imageUri: AswinImage,
     designation: "co-founder",
     facebookUrl:
