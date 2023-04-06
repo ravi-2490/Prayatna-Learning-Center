@@ -9,6 +9,7 @@ import { AiFillPhone } from "react-icons/ai";
 import { FiMail } from "react-icons/fi";
 import styles from "../../styles/Contact.module.css";
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const [enquiryDetails, setEnquiryDetails] = useState({
@@ -28,6 +29,15 @@ const Contact = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(enquiryDetails);
+    toast.success("Data submitted successfully. Admin will contact you.", {
+      position: "top-right", // Set the position of the toast
+      autoClose: 3000, // Set the auto-close duration in milliseconds
+      hideProgressBar: false, // Show or hide the progress bar
+      closeOnClick: true, // Close the toast when clicked
+      pauseOnHover: true, // Pause the auto-close timer on hover
+      draggable: true, // Allow the toast to be dragged
+      progress: undefined, // Use the default progress component
+    });
     setEnquiryDetails({
       firstName: "",
       lastName: "",
