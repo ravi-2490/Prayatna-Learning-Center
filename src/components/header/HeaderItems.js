@@ -11,26 +11,48 @@ const HeaderItems = [
   },
   {
     id: 3,
-    title: "E-Learning",
-    url: "#e-learning",
+    title: "Services",
+    url: "#services",
+    content: [
+      {
+        id: "s1",
+        name: "Pre-School",
+        url: "#",
+      },
+      {
+        id: "s2",
+        name: "Tuition(Online/Offline)",
+        url: "#",
+      },
+      {
+        id: "s3",
+        name: "PUC(Science and Commerce)",
+        url: "#",
+      },
+      {
+        id: "s4",
+        name: "NATA/K-CET",
+        url: "#",
+      },
+      {
+        id: "s5",
+        name: "JEE-MAINS/NEET",
+        url: "#",
+      },
+    ],
   },
   {
     id: 4,
-    title: "Services",
-    url: "#services",
-  },
-  {
-    id: 5,
     title: "Gallery",
     url: "#gallery",
   },
   {
-    id: 6,
+    id: 5,
     title: "Careers",
     url: "#careers",
   },
   {
-    id: 7,
+    id: 6,
     title: "Contact us",
     url: "#contactus",
   },

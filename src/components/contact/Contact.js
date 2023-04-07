@@ -1,3 +1,4 @@
+// ui import
 import {
   FaMap,
   FaFacebook,
@@ -11,7 +12,23 @@ import styles from "../../styles/Contact.module.css";
 import { useState } from "react";
 import { toast } from "react-toastify";
 
+//database import
+import { app } from "../../../firebase/initFirebase";
+import { getFirestore, collection, addDoc } from "firebase/firestore";
+const db = getFirestore(app);
+
 const Contact = () => {
+  //function sending the data to the firestore
+  const putData = async (data) => {
+    try {
+      const docRef = await addDoc(collection(db, "users"), data);
+      console.log("Document written with ID: ", docRef.id);
+    } catch (e) {
+      console.error("Error adding document: ", e);
+    }
+  };
+
+  //getting the data from form
   const [enquiryDetails, setEnquiryDetails] = useState({
     firstName: "",
     lastName: "",
@@ -26,9 +43,11 @@ const Contact = () => {
     setEnquiryDetails({ ...enquiryDetails, [name]: value });
   };
 
+  // submitting the form
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(enquiryDetails);
+    putData(enquiryDetails);
     toast.success("Data submitted successfully. Admin will contact you.", {
       position: "top-right", // Set the position of the toast
       autoClose: 3000, // Set the auto-close duration in milliseconds

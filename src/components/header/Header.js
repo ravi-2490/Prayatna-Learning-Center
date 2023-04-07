@@ -1,8 +1,11 @@
+import styles from "../../styles/Header.module.css";
 import logo from "../../../public/logo.jpg";
 import HeaderItems from "./HeaderItems";
 import Image from "next/image";
-import { Navbar, Nav, Container, Button } from "react-bootstrap";
+import { Navbar, Nav, Container, Button, NavDropdown } from "react-bootstrap";
 import { useState } from "react";
+
+import { BsFillTelephoneFill } from "react-icons/bs";
 
 function Header() {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -27,13 +30,29 @@ function Header() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
               {HeaderItems.map((item) => {
-                return (
-                  <Nav.Link href={item.url} key={item.id} onScroll={false}>
-                    {item.title}
-                  </Nav.Link>
-                );
+                if (item.title === "Services") {
+                  return (
+                    <NavDropdown title="Services" key={item.id}>
+                      {item.content.map((service) => {
+                        return (
+                          <NavDropdown.Item href={service.url} key={service.id}>
+                            {service.name}
+                          </NavDropdown.Item>
+                        );
+                      })}
+                    </NavDropdown>
+                  );
+                } else {
+                  return (
+                    <Nav.Link href={item.url} key={item.id} onScroll={false}>
+                      {item.title}
+                    </Nav.Link>
+                  );
+                }
               })}
             </Nav>
+            <BsFillTelephoneFill className={styles.vibratingPhoneIcon} />{" "}
+            +91-7204279330
             <Nav className="ms-auto">
               <Button variant="outline-primary mx-1">Signup</Button>
               <Button variant="outline-primary mx-1">Login</Button>

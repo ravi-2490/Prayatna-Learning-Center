@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.main .body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+.main .body {
+  margin-top: 10px;
+}
+
+.main .title h1 {
+  font-weight: 600;
+  color: #000;
+  font-size: 40px;
+}
+
+.main .image {
+  border-radius: 10px;
+  height: 15rem;
+  width: 350px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 912px) {
+  .main .body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

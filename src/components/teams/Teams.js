@@ -17,7 +17,7 @@ const Teams = () => {
               The Team Behind Prayatna Learning Center
             </h2>
 
-            <p className="section-subtitle">{message}</p>
+            <p className="section-subtitle"></p>
           </div>
           {TeamsItems.map((item) => {
             return (
