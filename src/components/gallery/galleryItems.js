@@ -1,5 +1,8 @@
 import imageOne from "../../../public/images/gallery/home/1.jpg";
-import image from "../../../public/images/gallery/home/2.png";
+import imageTwo from "../../../public/images/gallery/home/2.jpg";
+import imageThree from "../../../public/images/gallery/home/3.png";
+import imageFour from "../../../public/images/gallery/home/4.jpg";
+import imageFive from "../../../public/images/gallery/home/5.jpg";
 const GalleryItems = [
   {
     id: 1,
@@ -7,23 +10,19 @@ const GalleryItems = [
   },
   {
     id: 2,
-    url: image,
+    url: imageTwo,
   },
   {
     id: 3,
-    url: image,
+    url: imageThree,
   },
   {
     id: 4,
-    url: image,
+    url: imageFour,
   },
   {
     id: 5,
-    url: image,
-  },
-  {
-    id: 6,
-    url: image,
+    url: imageFive,
   },
 ];
 

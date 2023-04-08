@@ -16,6 +16,10 @@
   transition: all 0.25s ease-in-out;
 }
 
+.team-item .message {
+  text-align: center;
+}
+
 .team-item:hover {
   background: #3956de;
   color: white;

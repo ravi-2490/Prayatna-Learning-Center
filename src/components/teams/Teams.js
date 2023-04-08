@@ -7,7 +7,8 @@ import { AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 
 const Teams = () => {
-  let message = `There are many variations of passages of Lorem Ipsum available but the \n majority have suffered alteration in some injected humour.`;
+  // let message = `There are many variations of passages of Lorem Ipsum available but the \n majority have suffered alteration in some injected humour.`;
+  let message = `Meet Inspiring and visionary Founder behind Prayatna Learning Center success.\nA leader in education, driving excellence for students.`;
   return (
     <section className="section-white">
       <div className="container">
@@ -17,7 +18,7 @@ const Teams = () => {
               The Team Behind Prayatna Learning Center
             </h2>
 
-            <p className="section-subtitle"></p>
+            <p className="section-subtitle">{message}</p>
           </div>
           {TeamsItems.map((item) => {
             return (
@@ -28,11 +29,7 @@ const Teams = () => {
                   <div className="team-info">
                     <p>{item.designation}</p>
                   </div>
-                  <p>
-                    {item.name} is our co-founder and has developed search
-                    strategies for a variety of clients from international
-                    brands to medium sized businesses for over five years.
-                  </p>
+                  <p className="message">{item.message}</p>
 
                   <ul className="team-icon">
                     <li>

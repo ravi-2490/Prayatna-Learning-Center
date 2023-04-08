@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 // import "./styles.css";
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay, Pagination, Navigation, EffectFade } from "swiper";
 
 import styles from "../../styles/MiniGalley.module.css";
 
@@ -27,6 +27,7 @@ function MiniGallery() {
       <div className={styles.slider}>
         <Swiper
           spaceBetween={30}
+          effect={"fade"}
           centeredSlides={true}
           slidesPerView={1}
           autoplay={{
@@ -36,7 +37,7 @@ function MiniGallery() {
           pagination={{
             clickable: true,
           }}
-          modules={[Autoplay, Pagination, Navigation]}
+          modules={[Autoplay, Pagination, Navigation, EffectFade]}
           className={styles.mySwiper}
         >
           {GalleryItems.map((item) => {

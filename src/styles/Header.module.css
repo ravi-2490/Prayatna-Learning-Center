@@ -17,3 +17,28 @@
   animation-iteration-count: infinite;
   margin-right: 10px;
 }
+
+.brandName {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 406px) {
+  .brandName {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 355px) {
+  .toggle {
+    margin-left: -20px;
+  }
+  .brandName {
+    margin-left: 5px;
+  }
+
+  .brandLogo {
+    display: none;
+  }
+}

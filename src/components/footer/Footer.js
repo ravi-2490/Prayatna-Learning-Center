@@ -124,7 +124,10 @@ const Footer = () => {
                   <FontAwesomeIcon icon={faEnvelope} />
                 </span>
                 <p>
-                  <a href="mailto:plearningcenter17@gmail.com">
+                  <a
+                    href="mailto:plearningcenter17@gmail.com"
+                    className="mailId"
+                  >
                     plearningcenter17@gmail.com
                   </a>
                 </p>

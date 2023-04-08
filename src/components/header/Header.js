@@ -15,18 +15,23 @@ function Header() {
   return (
     <section id="header">
       <Navbar bg="light" expand="lg">
-        <Container>
+        <Container className={styles.navContainer}>
           <Navbar.Brand href="/" className="d-flex">
             <Image
               src={logo}
               height={40}
               width={40}
-              className="d-inline-block align-top mx-1"
+              className={styles.brandLogo}
               alt="Logo"
             />
-            <p className="mt-2">Praytana Learning Center</p>
+            <p className={styles.brandName}>
+              Praytana Learning <span>Center</span>
+            </p>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            className={styles.toggle}
+          />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
               {HeaderItems.map((item) => {

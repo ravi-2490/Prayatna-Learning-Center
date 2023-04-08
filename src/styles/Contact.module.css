@@ -13,7 +13,7 @@
 
 .contactUs {
   position: relative;
-  width: 100%;
+  width: auto;
   padding: 40px 100px;
 }
 
@@ -249,7 +249,40 @@
     padding: 0;
   }
 }
+@media screen and (max-width: 406px) {
+  /* my coustom input */
+  .contactUs .title {
+    font-size: 2em;
+  }
+  .contact .titleMessage {
+    font-size: 1.5em;
+  }
+  .social li a {
+    font-size: 2em;
+  }
+  .info .infoBox div a {
+    font-size: 0.895em;
+  }
+  .info .infoBox div p {
+    font-size: 0.895em;
+  }
+  .inputBox input[type="submit"] {
+    font-size: 1em;
+  }
 
+  .inputBox textarea {
+    font-size: 0.75em;
+  }
+  .inputBox input {
+    font-size: 0.75em;
+  }
+  .contact h3 {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .box .contact {
   border-radius: 20px;
 }
