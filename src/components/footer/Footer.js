@@ -10,6 +10,7 @@ import {
   faPhone,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
+import Applogo from "../applogo/Applogo";
 
 const Footer = () => {
   return (
@@ -131,6 +132,9 @@ const Footer = () => {
                     plearningcenter17@gmail.com
                   </a>
                 </p>
+              </li>
+              <li className="applogo">
+                <Applogo />
               </li>
             </ul>
           </div>
