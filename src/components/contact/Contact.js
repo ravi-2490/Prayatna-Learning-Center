@@ -21,7 +21,7 @@ const Contact = () => {
   //function sending the data to the firestore
   const putData = async (data) => {
     try {
-      const docRef = await addDoc(collection(db, "users"), data);
+      const docRef = await addDoc(collection(db, "enquiries"), data);
       console.log("Document written with ID: ", docRef.id);
     } catch (e) {
       console.error("Error adding document: ", e);
@@ -87,6 +87,7 @@ const Contact = () => {
                       name="firstName"
                       value={enquiryDetails.firstName}
                       onChange={handleChange}
+                      required
                     />
                   </div>
                   <div className={styles.inputBox}>
@@ -97,6 +98,7 @@ const Contact = () => {
                       name="lastName"
                       value={enquiryDetails.lastName}
                       onChange={handleChange}
+                      required
                     />
                   </div>
                 </div>
@@ -110,6 +112,7 @@ const Contact = () => {
                       name="email"
                       value={enquiryDetails.email}
                       onChange={handleChange}
+                      required
                     />
                   </div>
                   <div className={styles.inputBox}>
@@ -120,6 +123,7 @@ const Contact = () => {
                       name="mobile"
                       value={enquiryDetails.mobile}
                       onChange={handleChange}
+                      required
                     />
                   </div>
                 </div>
@@ -132,6 +136,7 @@ const Contact = () => {
                       name="message"
                       value={enquiryDetails.message}
                       onInput={handleChange}
+                      required
                     ></textarea>
                   </div>
                 </div>
