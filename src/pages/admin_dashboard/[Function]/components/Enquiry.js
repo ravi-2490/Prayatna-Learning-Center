@@ -1,9 +1,9 @@
-import { app } from "../../../../../firebase/initFirebase";
-import { getFirestore, getDocs, collection } from "firebase/firestore";
+import { getDocs, collection } from "firebase/firestore";
 import Card from "../Card";
 import styles from "../../../../styles/Enquiry.module.css";
 import { useEffect, useState } from "react";
-const db = getFirestore(app);
+
+import { db } from "../../../../../firebase/initFirebase";
 
 const Enquiry = () => {
   const [enquiryData, setEnquiryData] = useState([]);

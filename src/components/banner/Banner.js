@@ -20,7 +20,6 @@ const Banner = () => {
         disableOnInteraction: true,
       }}
       loop={true}
-      loopFillGroupWithBlank={true}
       noSwiping={true}
       noSwipingClass={"swiper-no-swiping"}
       // onSlideChange={() => console.log("slide change")}

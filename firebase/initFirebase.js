@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-
+import { getFirestore } from "firebase/firestore";
 const firebaseConfig = {
   apiKey: "AIzaSyDQTYsblnY8o-Eck8_-KfKPlFj7zk6MqyQ",
   authDomain: "presonal-blog.firebaseapp.com",
@@ -10,4 +10,6 @@ const firebaseConfig = {
   appId: "1:906535011825:web:cc94765163bf40eef3b050",
 };
 
-export const app = initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
+
+export const db = getFirestore(app);
