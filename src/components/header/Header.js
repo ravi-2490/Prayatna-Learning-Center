@@ -59,9 +59,6 @@ function Header() {
             <BsFillTelephoneFill className={styles.vibratingPhoneIcon} />{" "}
             +91-7204279330
             <Nav className="ms-auto">
-              <Button variant="outline-primary mx-1" href="">
-                Signup
-              </Button>
               <Button variant="outline-primary mx-1" href="/">
                 Login
               </Button>
