@@ -15,7 +15,11 @@ const Index = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(signup);
-    setSignup({ name: "", email: "", password: "" });
+    setSignup({
+      name: "",
+      email: "",
+      password: "",
+    });
   };
   return (
     <div className={styles.body}>
@@ -61,7 +65,7 @@ const Index = () => {
           </div>
           <div className={styles.text}>
             <h3>
-              Already have an account? <Link href="/login">Log in</Link>
+              Already have an account? <Link href="/login">Login</Link>
             </h3>
           </div>
         </form>
