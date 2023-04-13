@@ -62,7 +62,7 @@ function Header() {
               <Button variant="outline-primary mx-1" href="">
                 Signup
               </Button>
-              <Button variant="outline-primary mx-1" href="/login">
+              <Button variant="outline-primary mx-1" href="/">
                 Login
               </Button>
             </Nav>
