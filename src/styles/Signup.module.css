@@ -1,89 +1,105 @@
 .body {
-  min-height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #4070f4;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
+  height: 89vh;
 }
-.wrapper {
+.center {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+.center h1 {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid silver;
+}
+.center form {
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+form .txt {
   position: relative;
-  max-width: 430px;
+  border-bottom: 2px solid #adadad;
+  margin: 30px 0;
+}
+.txt input {
   width: 100%;
-  background: #fff;
-  padding: 34px;
-  border-radius: 6px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
 }
-.wrapper h2 {
-  position: relative;
-  font-size: 22px;
-  font-weight: 600;
-  color: #333;
+.txt label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.5s;
 }
-.wrapper h2::before {
+.txt span::before {
   content: "";
   position: absolute;
+  top: 40px;
   left: 0;
-  bottom: 0;
-  height: 3px;
-  width: 40px;
-  border-radius: 12px;
-  background: #4070f4;
-  margin-top: 20px;
+  width: 0%;
+  height: 2px;
+  background: #2691d9;
+  transition: 0.5s;
 }
-.wrapper form {
-  margin-top: 30px;
+.txt input:focus ~ label,
+.txt input:valid ~ label {
+  top: -5px;
+  color: #2691d9;
 }
-.wrapper form .inputBox {
-  height: 52px;
-  margin: 18px 0;
-}
-.wrapper form .inputBox input {
-  height: 100%;
+.txt input:focus ~ span::before,
+.txt input:valid ~ span::before {
   width: 100%;
-  outline: none;
-  padding: 0 15px;
-  font-size: 17px;
-  font-weight: 400;
-  color: #333;
-  border: 1.5px solid #c7bebe;
-  border-bottom-width: 2.5px;
-  border-radius: 6px;
-  transition: all 0.3s ease;
 }
-.inputBox input:focus,
-.inputBox input:valid {
-  border-color: #4070f4;
-}
-.wrapper form .policy {
-  display: flex;
-  align-items: center;
-}
-.wrapper form h3 {
-  color: #707070;
-  font-size: 14px;
-  font-weight: 500;
-  margin-left: 10px;
-}
-.inputBox.button input {
-  color: #fff;
-  letter-spacing: 1px;
-  border: none;
-  background: #4070f4;
+.pass {
+  margin: -5px 0 20px 5px;
+  color: #a6a6a6;
   cursor: pointer;
 }
-.inputBox.button input:hover {
-  background: #0e4bf1;
+.pass:hover {
+  text-decoration: underline;
 }
-.wrapper form .text h3 {
-  color: #333;
+.sub {
   width: 100%;
-  text-align: center;
+  height: 50px;
+  border: 1px solid;
+  background: #2691d9;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #e9f4fb;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
 }
-.wrapper form .text h3 Link {
-  color: #4070f4;
+.sub:hover {
+  border-color: #2691d9;
+  transition: 0.5s;
+}
+.signup {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #666666;
+}
+.signup a {
+  color: #2691d9;
   text-decoration: none;
 }
-.wrapper form .text h3 Link:hover {
+.signup a:hover {
   text-decoration: underline;
 }
