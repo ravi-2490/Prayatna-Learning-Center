@@ -11,10 +11,10 @@ function PreSchool() {
         <div className="container">
           <h2 style={{ color: "green" }}>PreSchool Offering</h2>
           <p align="center">
-            We founded the Pre-School in 2022 with a vision to make learning and
-            fun go hand in hand for for toddlers.We are making sure to provide a
-            homely environment for kids and also instill a routine which is
-            going to help in long way.
+            `We founded the Pre-School in 2022 with a vision to make learning
+            and fun go hand in hand for for toddlers.We are making sure to
+            provide a homely environment for kids and also instill a routine
+            which is going to help in long way.`
           </p>
         </div>
         <div>
