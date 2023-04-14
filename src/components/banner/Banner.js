@@ -22,8 +22,6 @@ const Banner = () => {
       loop={true}
       noSwiping={true}
       noSwipingClass={"swiper-no-swiping"}
-      // onSlideChange={() => console.log("slide change")}
-      onSwiper={(swiper) => console.log(swiper)}
       className={styles.bannerContainer}
     >
       {BannerItems.map((item) => {
