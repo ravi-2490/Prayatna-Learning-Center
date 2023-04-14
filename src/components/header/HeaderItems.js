@@ -17,7 +17,7 @@ const HeaderItems = [
       {
         id: "s1",
         name: "Pre-School",
-        url: "#",
+        url: "/preschool",
       },
       {
         id: "s2",
