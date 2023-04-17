@@ -3,7 +3,6 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Prayatna Learning Center</title>
         <meta name="title" content="Prayatna Learning Center" />
         <meta
           name="description"

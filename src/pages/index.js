@@ -5,13 +5,11 @@ import Gallery from "@/components/gallery/Gallery";
 import Teams from "@/components/teams/Teams";
 import Testimonial from "@/components/testimonial/Testimonial";
 
-import Head from "next/head";
-
 const Index = () => {
   return (
     <>
       <Banner />
-      {/* <Teams /> */}
+      <Teams />
       <About />
       <Gallery />
       <Testimonial />
