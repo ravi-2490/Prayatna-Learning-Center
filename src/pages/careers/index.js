@@ -4,7 +4,15 @@ import Table from "react-bootstrap/Table";
 import image from "../../../public/images/careers/jobs.webp";
 function Careers() {
   return (
-    <section id="careers">
+    <section
+      id="careers"
+      style={{
+        height: "70vh",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
       <div className={styles.aboutus}>
         <div className={styles.imageContainer}>
           <Image src={image} alt="Image" className={styles.image} />
