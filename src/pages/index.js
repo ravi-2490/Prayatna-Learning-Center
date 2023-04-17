@@ -12,6 +12,8 @@ const Index = () => {
     <>
       <Head>
         <title>Prayatna Learning Center</title>
+        <meta name="title" content="Prayatna learning center" />
+
         <meta
           name="description"
           content="Best coaching center for the pre-school,high school,class-10,first PUC,second PUC,JEE mains,JEE advance,NATA and K-CET. We give one to one mentorship to all our student and also provide full assistance on the overall development of the student."
