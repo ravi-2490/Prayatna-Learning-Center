@@ -49,7 +49,7 @@ const HeaderItems = [
   {
     id: 5,
     title: "Careers",
-    url: "#careers",
+    url: "/careers",
   },
   {
     id: 6,
