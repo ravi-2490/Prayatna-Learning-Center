@@ -2,7 +2,7 @@ import * as React from "react";
 import ImageList from "@mui/material/ImageList";
 import Image from "next/image";
 import ImageListItem from "@mui/material/ImageListItem";
-import TuitionItems from "../../components/TuitionItems";
+import TuitionItems from "../../components/services/TuitionItems";
 
 function Tuition() {
   return (
