@@ -2,7 +2,7 @@ import * as React from "react";
 import ImageList from "@mui/material/ImageList";
 import Image from "next/image";
 import ImageListItem from "@mui/material/ImageListItem";
-import PreSchoolItems from "./PreSchoolItems";
+import PreSchoolItems from "../../components/PreSchoolItems";
 
 function PreSchool() {
   return (

@@ -13,9 +13,8 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 
 //database import
-import { app } from "../../../firebase/initFirebase";
-import { getFirestore, collection, addDoc } from "firebase/firestore";
-const db = getFirestore(app);
+import { db } from "../../../firebase/initFirebase";
+import { collection, addDoc } from "firebase/firestore";
 
 const Contact = () => {
   //function sending the data to the firestore
