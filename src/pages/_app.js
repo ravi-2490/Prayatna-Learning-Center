@@ -7,6 +7,7 @@ import { ToastContainer } from "react-toastify";
 import "../components/teams/Teams.css";
 import "../components/footer/Footer.css";
 import Header from "@/components/header/Header";
+
 export default function App({ Component, pageProps }) {
   return (
     <>

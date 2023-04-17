@@ -22,7 +22,7 @@ const HeaderItems = [
       {
         id: "s2",
         name: "Tuition(Online/Offline)",
-        url: "#",
+        url: "/tuition",
       },
       {
         id: "s3",
