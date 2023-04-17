@@ -7,12 +7,11 @@ const HeaderItems = [
   {
     id: 2,
     title: "About us",
-    url: "#aboutus",
+    url: "/#aboutus",
   },
   {
     id: 3,
     title: "Services",
-    url: "#services",
     content: [
       {
         id: "s1",
@@ -24,27 +23,27 @@ const HeaderItems = [
         name: "Tuition(Online/Offline)",
         url: "/tuition",
       },
-      {
-        id: "s3",
-        name: "PUC(Science and Commerce)",
-        url: "#",
-      },
-      {
-        id: "s4",
-        name: "NATA/K-CET",
-        url: "#",
-      },
-      {
-        id: "s5",
-        name: "JEE-MAINS/NEET",
-        url: "#",
-      },
+      // {
+      //   id: "s3",
+      //   name: "PUC(Science and Commerce)",
+      //   url: "#",
+      // },
+      // {
+      //   id: "s4",
+      //   name: "NATA/K-CET",
+      //   url: "#",
+      // },
+      // {
+      //   id: "s5",
+      //   name: "JEE-MAINS/NEET",
+      //   url: "#",
+      // },
     ],
   },
   {
     id: 4,
     title: "Gallery",
-    url: "#gallery",
+    url: "/#gallery",
   },
   {
     id: 5,
@@ -54,7 +53,7 @@ const HeaderItems = [
   {
     id: 6,
     title: "Contact us",
-    url: "#contactus",
+    url: "/#contactus",
   },
 ];
 
