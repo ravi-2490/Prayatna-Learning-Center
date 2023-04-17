@@ -1,0 +1,96 @@
+.wrapper {
+  display: flex;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+.cardWrapper {
+  background-color: rgb(226, 234, 243);
+  width: 20rem;
+  height: 6rem;
+  padding: 10px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 4px 4px 5px slategray;
+  cursor: pointer;
+  margin: 10px 15px;
+}
+
+.cardWrapper .image {
+  width: 5rem;
+  height: 5rem;
+  background-color: rgb(197, 213, 230);
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.cardWrapper h3 {
+  font-weight: 500;
+}
+
+.cardWrapper .name {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.parent {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainWrapper {
+  flex-wrap: wrap;
+  background-color: rgb(226, 234, 243);
+  width: 50%;
+  height: 70%;
+  border-radius: 20px;
+  box-shadow: 4px 4px 5px slategray;
+  padding: 20px;
+}
+
+.mainWrapper .header {
+  display: flex;
+}
+
+.mainWrapper .header .imageWrapper .image {
+  width: 150px;
+  height: 150px;
+}
+
+.mainWrapper .header .nameWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.mainWrapper .body {
+  padding: 10px;
+}
+.mainWrapper .body h5 {
+  font-size: 1.525rem;
+}
+
+.trash {
+  /* background-color: aqua; */
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 50px;
+  cursor: pointer;
+  color: red;
+}
+
+.icon:hover {
+  transform: scale(1.5); /* Increase the scale by 5% */
+  transition: transform 0.3s ease-in-out;
+}

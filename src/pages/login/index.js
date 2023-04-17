@@ -1,7 +1,10 @@
 import { useState } from "react";
 import styles from "../../styles/Login.module.css";
 import Link from "next/link";
+import { useRouter } from "next/router";
+
 const Index = () => {
+  const router = useRouter();
   const [login, setLogin] = useState({
     email: "",
     password: "",
@@ -13,7 +16,9 @@ const Index = () => {
   };
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(login);
+    if (login.email == "admin@123" && login.password == "admin@123") {
+      router.push("/admin_dashboard");
+    }
     setLogin({
       email: "",
       password: "",
