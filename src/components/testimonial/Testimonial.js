@@ -55,11 +55,7 @@ function Testimonial() {
 
                   <div className={`${styles["card-content"]}`}>
                     <h2 className={`${styles["name"]}`}>{item.name}</h2>
-                    <p className={`${styles["description"]}`}>
-                      The lorem text the section that contains header with
-                      having open functionality. Lorem dolor sit amet
-                      consectetur adipisicing elit.
-                    </p>
+                    <p className={`${styles["description"]}`}>{item.content}</p>
                   </div>
                 </div>
               </SwiperSlide>
