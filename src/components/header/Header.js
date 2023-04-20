@@ -25,7 +25,7 @@ function Header() {
               alt="Logo"
             />
             <p className={styles.brandName}>
-              Praytana Learning <span>Center</span>
+              Prayatna Learning <span>Center</span>
             </p>
           </Navbar.Brand>
           <Navbar.Toggle
