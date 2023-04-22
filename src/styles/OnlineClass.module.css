@@ -1,0 +1,49 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.wrapper .form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(226, 234, 243);
+  width: 50%;
+  box-shadow: 4px 4px 5px slategray;
+  padding: 2em;
+  border-radius: 20px;
+}
+
+.wrapper .form label {
+  font-size: larger;
+  margin-top: 10px;
+}
+
+.wrapper .form h3 {
+  align-self: center;
+}
+
+.wrapper .form input[type="submit"] {
+  margin-top: 20px;
+  background-color: rgb(129, 176, 230);
+  border-radius: 10px;
+  height: 60px;
+  box-shadow: 4px 4px 5px slategray;
+  font-size: larger;
+}
+
+.wrapper .form input[type="submit"]:hover {
+  background-color: palevioletred;
+}
+
+.wrapper .form select[name="roles"] {
+  height: 42px;
+  font-size: larger;
+  padding-left: 10px;
+}
+
+.wrapper .form input {
+  height: 40px;
+  padding-left: 10px;
+}

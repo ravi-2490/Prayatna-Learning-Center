@@ -24,6 +24,7 @@
     "eslint-config-next": "13.2.4",
     "firebase": "^9.19.1",
     "framer-motion": "^10.12.2",
+    "lottie-react": "^2.4.0",
     "mdb-react-ui-kit": "^6.0.0",
     "mui": "^0.0.1",
     "next": "13.2.4",
