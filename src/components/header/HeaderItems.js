@@ -7,7 +7,7 @@ const HeaderItems = [
   {
     id: 2,
     title: "About us",
-    url: "/#aboutus",
+    url: "/aboutus",
   },
   {
     id: 3,
@@ -43,7 +43,7 @@ const HeaderItems = [
   {
     id: 4,
     title: "Gallery",
-    url: "/#gallery",
+    url: "/gallery",
   },
   {
     id: 5,
@@ -53,7 +53,7 @@ const HeaderItems = [
   {
     id: 6,
     title: "Contact us",
-    url: "/#contactus",
+    url: "/contactus",
   },
 ];
 
