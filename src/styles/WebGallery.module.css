@@ -42,3 +42,35 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* pagination */
+.pageNoContainer {
+  display: flex;
+  /* background-color: red; */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0px;
+  margin-top: 20px;
+}
+
+.navigationButton {
+  background-color: #e5e5e5;
+  padding: 2px 12px;
+  border-radius: 6px;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 1.5px 1.5px 2px #333;
+  font-weight: 500;
+}
+
+.pageText {
+  padding: 0px 12px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.arrow {
+  font-size: 12px;
+}
