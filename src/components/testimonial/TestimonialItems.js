@@ -41,12 +41,6 @@ const SwipesItems = [
       "best faculty  with great knowledge, friendly behavior with students. Proper guidance for entrance exams and better career option",
   },
   {
-    name: "Devesee Father",
-    image: TestimonialImageSix,
-    content:
-      "Helpfull teaching with best faculty , I worked in this organisation as maths faculty 5 years back. 2018 mai .. happy to work with this organisation",
-  },
-  {
     name: "Prabhakar Kumar",
     image: TestimonialImageSeven,
     content:
