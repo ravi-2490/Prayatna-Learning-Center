@@ -10,6 +10,10 @@ import Header from "@/components/header/Header";
 
 import Footer from "@/components/footer/Footer";
 import Head from "next/head";
+
+import { Provider } from "react-redux";
+import store from "../../redux/store";
+
 export default function App({ Component, pageProps }) {
   return (
     <>
@@ -31,10 +35,12 @@ export default function App({ Component, pageProps }) {
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <Header />
-      <Component {...pageProps} />
-      <Footer />
-      <ToastContainer />
+      <Provider store={store}>
+        <Header />
+        <Component {...pageProps} />
+        <Footer />
+        <ToastContainer />
+      </Provider>
     </>
   );
 }

@@ -1,0 +1,68 @@
+.wrapper {
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 0;
+}
+
+.container {
+  width: 50%;
+  height: 60%;
+  background-color: aliceblue;
+  border-radius: 14px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #333;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.label {
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 0 14px;
+}
+.title {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title input[name="title"] {
+  padding-left: 8px;
+  border-radius: 6px;
+  height: 38px;
+  margin-bottom: 12px;
+}
+.content {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content textarea {
+  padding-left: 12px;
+  border-radius: 6px;
+  height: 38px;
+  margin-bottom: 12px;
+  height: 130px;
+}
+.submit {
+  background-color: #637ced;
+  border-radius: 8px;
+  padding: 6px 0;
+  font-size: 18px;
+  font-weight: 500;
+}

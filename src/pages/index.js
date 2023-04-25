@@ -1,4 +1,5 @@
 import About from "@/components/about/About";
+import Advertisment from "@/components/advertisment/Advertisment";
 import Banner from "@/components/banner/Banner";
 import Contact from "@/components/contact/Contact";
 import Gallery from "@/components/gallery/Gallery";
@@ -25,6 +26,7 @@ const Index = () => {
           content="width=device-width, initial-scale=1.0"
         ></meta>
       </Head>
+      <Advertisment />
       <Banner />
       <Teams />
       <About />
