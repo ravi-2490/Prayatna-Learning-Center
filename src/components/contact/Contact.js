@@ -15,6 +15,7 @@ import { toast } from "react-toastify";
 //database import
 import { db } from "../../../firebase/initFirebase";
 import { collection, addDoc } from "firebase/firestore";
+import { sendContactForm } from "../../../lib/api";
 
 const Contact = () => {
   //function sending the data to the firestore
@@ -43,10 +44,12 @@ const Contact = () => {
   };
 
   // submitting the form
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
     console.log(enquiryDetails);
     putData(enquiryDetails);
+    //sending the data on mail
+    await sendContactForm(enquiryDetails);
     toast.success("Data submitted successfully. Admin will contact you.", {
       position: "top-right", // Set the position of the toast
       autoClose: 3000, // Set the auto-close duration in milliseconds
