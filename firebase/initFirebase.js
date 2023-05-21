@@ -1,13 +1,12 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 const firebaseConfig = {
-  apiKey: "AIzaSyDQTYsblnY8o-Eck8_-KfKPlFj7zk6MqyQ",
-  authDomain: "presonal-blog.firebaseapp.com",
-  databaseURL: "https://presonal-blog-default-rtdb.firebaseio.com",
-  projectId: "presonal-blog",
-  storageBucket: "presonal-blog.appspot.com",
-  messagingSenderId: "906535011825",
-  appId: "1:906535011825:web:cc94765163bf40eef3b050",
+  apiKey: "AIzaSyAv9i8ygkh9mgKfBCDXsClOWNdtqaXbh5w",
+  authDomain: "prayatnalearning-ac943.firebaseapp.com",
+  projectId: "prayatnalearning-ac943",
+  storageBucket: "prayatnalearning-ac943.appspot.com",
+  messagingSenderId: "198306796229",
+  appId: "1:198306796229:web:0ed12706425f8daf5856ac"
 };
 
 const app = initializeApp(firebaseConfig);
