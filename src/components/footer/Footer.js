@@ -12,6 +12,10 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Applogo from "../applogo/Applogo";
 
+import { BiMap } from "react-icons/bi";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { AiOutlineMail } from "react-icons/ai";
+
 const Footer = () => {
   return (
     <>
@@ -102,17 +106,29 @@ const Footer = () => {
             <ul className="info">
               <li>
                 <span>
-                  <FontAwesomeIcon icon={faMapMarker} />
+                  <BiMap />
                 </span>
                 <span>
-                  2B Akshaya Nagar <br /> Rammurthy Nagar <br /> Flower Garden
-                  Layout, Bangalore <br /> India, Bengaluru <br /> Karnataka
-                  560016
+                  Main Branch
+                  <br />
+                  2B Akshaya Nagar, Rammurthy Nagar <br />
+                  Bengaluru, Karnataka 560016
                 </span>
               </li>
               <li>
                 <span>
-                  <FontAwesomeIcon icon={faPhone} />
+                  <BiMap />
+                </span>
+                <span>
+                  Raghavendra Circle Branch
+                  <br />
+                  #73, Kowdenahalli, Ramamurthy Nagar Extension,
+                  <br /> Bengaluru, Karnataka 560016
+                </span>
+              </li>
+              <li>
+                <span>
+                  <BsFillTelephoneFill />
                 </span>
                 <p>
                   <a href="tel:7204279330">+91-7204279330</a>
@@ -122,7 +138,7 @@ const Footer = () => {
               </li>
               <li>
                 <span>
-                  <FontAwesomeIcon icon={faEnvelope} />
+                  <AiOutlineMail />
                 </span>
                 <p>
                   <a
