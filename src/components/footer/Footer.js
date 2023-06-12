@@ -149,9 +149,9 @@ const Footer = () => {
                   </a>
                 </p>
               </li>
-              <li className="applogo">
+              {/* <li className="applogo">
                 <Applogo />
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
