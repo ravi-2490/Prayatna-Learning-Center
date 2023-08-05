@@ -13,8 +13,23 @@ import imageTwelve from "../../../public/images/gallery/home/gImg1.jpg";
 import imageThirteen from "../../../public/images/gallery/home/gImg2.jpg";
 import imageFourteen from "../../../public/images/gallery/home/gImg3.jpg";
 import imageFifteen from "../../../public/images/gallery/home/gImg4.jpg";
+import imageSixteen from "../../../public/images/gallery/home/gImg5.jpg";
+import imageSeventeen from "../../../public/images/gallery/home/gImg6.jpg";
+import imageEighteen from "../../../public/images/gallery/home/gImg7.jpg";
 
 const GalleryItems = [
+  {
+    id: 16,
+    url: imageSixteen,
+  },
+  {
+    id: 17,
+    url: imageSeventeen,
+  },
+  {
+    id: 18,
+    url: imageEighteen,
+  },
   {
     id: 1,
     url: imageOne,
