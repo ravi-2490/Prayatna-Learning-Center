@@ -15,14 +15,14 @@ const HeaderItems = [
     content: [
       {
         id: "s1",
-        name: "Pre-School",
-        url: "/preschool",
-      },
-      {
-        id: "s2",
         name: "Tuition(Online/Offline)",
         url: "/tuition",
       },
+      // {
+      //   id: "s2",
+      //   name: "Pre-School",
+      //   url: "/preschool",
+      // },
       // {
       //   id: "s3",
       //   name: "PUC(Science and Commerce)",
