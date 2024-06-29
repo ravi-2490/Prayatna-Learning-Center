@@ -38,7 +38,7 @@ function Testimonial() {
             noSwipingClass={"swiper-no-swiping"}
             breakpoints={breakpoints}
           >
-            {TestimonialItems.map((item) => (
+            {TestimonialItems.map((item, index) => (
               <SwiperSlide key={item.image}>
                 <div className={`${styles["card"]} swiper-slide`}>
                   <div className={`${styles["image-content"]}`}>
