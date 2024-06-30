@@ -44,3 +44,9 @@ Change ticket - CHGPLC9878
 Contibutor - Ravi Kumar
 Tag - RK9878
 Description - changed the Image of Mithesh Kumar testimonial to dummy Image
+
+Date - 06/30/2024
+Change ticket - CHGPLC0001
+Contibutor - Ravi Kumar
+Tag - RK0001
+Description - Added Horamavau center address
