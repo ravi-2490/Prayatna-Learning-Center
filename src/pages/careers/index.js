@@ -59,32 +59,26 @@ function Careers() {
                 <tr>
                   <td>1</td>
                   <td>Teaching</td>
-                  <td>Online Teachers</td>
-                  <td>Remote</td>
+                  <td>Offline Teachers</td>
+                  <td>Bangalore-Onsite</td>
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td>Teaching</td>
-                  <td>Offline Teachers</td>
-                  <td>Bangalore</td>
-                </tr>
-                <tr>
-                  <td>3</td>
                   <td>Non Teaching Staff</td>
                   <td>Center Incharge</td>
-                  <td>Bangalore</td>
+                  <td>Bangalore-Onsite</td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>Non Teaching Staff</td>
                   <td>Marketing Intern</td>
-                  <td>Bangalore</td>
+                  <td>Bangalore-Onsite</td>
                 </tr>
                 <tr>
-                  <td>3</td>
+                  <td>4</td>
                   <td>Non Teaching Staff</td>
                   <td>Academic Counseller</td>
-                  <td>Bangalore</td>
+                  <td>Bangalore-Onsite</td>
                 </tr>
               </tbody>
             </Table>
