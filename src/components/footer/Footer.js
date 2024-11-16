@@ -126,6 +126,19 @@ const Footer = () => {
                   <br /> Bengaluru, Karnataka 560016
                 </span>
               </li>
+              {/* RK0001 */}
+              <li>
+                <span>
+                  <BiMap />
+                </span>
+                <span>
+                  Horamavu Branch
+                  <br />
+                  Near Sri Chaitanya DMCS school, Ashirwad Colony Main Rd,
+                  Coconut Grove Layout.
+                  <br /> Bengaluru, Karnataka 560043
+                </span>
+              </li>
               <li>
                 <span>
                   <BsFillTelephoneFill />

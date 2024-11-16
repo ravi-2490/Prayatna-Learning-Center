@@ -8,6 +8,7 @@ import TestimonialImageEight from "../../../public/images/testimonial/8.jpg";
 import TestimonialImageNine from "../../../public/images/testimonial/9.jpg";
 import TestimonialImageTen from "../../../public/images/testimonial/10.jpg";
 import TestimonialImageEleven from "../../../public/images/testimonial/11.jpg";
+import DummyImage from "../../../public/images/dummy-profile.png";
 
 const SwipesItems = [
   {
@@ -61,7 +62,8 @@ const SwipesItems = [
   },
   {
     name: "Mithesh Kumar",
-    image: TestimonialImageTen,
+    // image: TestimonialImageTen, /*{RK9878}*/
+    image: DummyImage /*{RK9878}*/,
     content:
       "One of the best coaching class. I understand the topic very easily. Ashwin sir, Deepsikha maam make complex topic so easy to understand that after reading I feel like it was so easy. Thankyou sir and maam.",
   },
