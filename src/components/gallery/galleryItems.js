@@ -20,10 +20,24 @@ import imageNinteen from "../../../public/images/gallery/home/gImg8.jpg";
 import imageTwenty from "../../../public/images/gallery/home/gImg9.jpg";
 import imageTwentyOne from "../../../public/images/gallery/home/gImg10.jpg";
 
+
 const GalleryItems = [
   {
     id: 16,
     url: imageSixteen,
+
+  },
+  {
+    id: 17,
+    url: imageSeventeen,
+  },
+  {
+    id: 18,
+    url: imageEighteen,
+  },
+  {
+    id: 1,
+    url: imageOne,
   },
   {
     id: 17,
