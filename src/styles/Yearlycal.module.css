@@ -1,0 +1,49 @@
+
+
+  .calimage {
+    width: 100%;
+    max-width: 300px;
+    height:auto; /* Default size for small screens */
+    display: block;
+    margin: 0 auto; /* Centers the image */
+    object-fit: contain;
+  }
+
+  .image-container {
+    margin-bottom: 2px; /* Reduce space between images */
+    padding-bottom: 0; /* Ensure no extra padding */
+  }
+
+
+  /* Small screens (mobile) */
+  @media (min-width: 640px) { 
+    .calimage {
+      max-width: 400px;
+      height:auto;
+    }
+  }
+  
+  /* Medium screens (tablets) */
+  @media (min-width: 768px) { 
+    .calimage {
+      max-width: 500px;
+      height:auto;
+    }
+  }
+  
+  /* Large screens (laptops/desktops) */
+  @media (min-width: 1024px) { 
+    .calimage {
+      max-width: 700px;
+      height:auto;
+    }
+  }
+  
+  /* Extra large screens (big monitors) */
+  @media (min-width: 1280px) { 
+    .calimage {
+      max-width: 900px;
+      height:auto;
+    }
+  }
+  

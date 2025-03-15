@@ -42,16 +42,21 @@ const HeaderItems = [
   },
   {
     id: 4,
+    title: "YearlyPlan",
+    url: "/yearlyplan",
+  }, 
+  {
+    id: 5,
     title: "Gallery",
     url: "/gallery",
   },
   {
-    id: 5,
+    id: 6,
     title: "Careers",
     url: "/careers",
   },
   {
-    id: 6,
+    id: 7,
     title: "Contact us",
     url: "/contactus",
   },
